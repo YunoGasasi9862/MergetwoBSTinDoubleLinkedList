@@ -1,4 +1,4 @@
-#pragma once
+i#pragma once
 typedef int BType;
 typedef struct bnode_s
 {
@@ -22,7 +22,7 @@ bnode_t* insert(bnode_t* root, BType data) //DONT FORGET THIS NOW BILAL!!!!!
 {
 	if (root == NULL) //IF THE ROOT IS NULL CREATE A NODE!!!!
 	{
-		return getBinaryNode(data); //if the root has reached either left dead end, or right dead end, or then create a fucking NODE THERE!
+		return getBinaryNode(data); //if the root has reached either left dead end, or right dead end, or then create a freaking NODE THERE!
 	}
 	else
 	{
